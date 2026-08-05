@@ -1,5 +1,5 @@
-/* General Reset */
-body, h1, h2, h3, p, ul, li, a, button {
+
+    *{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -12,7 +12,6 @@ body {
     color: #333;
 }
 
-/* Header Section */
 header {
     position: sticky;
     top: 0;
@@ -48,7 +47,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Hero Section */
+
 #hero {
     height: 100vh;
     background-size: cover;
@@ -69,7 +68,6 @@ header nav ul li a:hover {
     font-size: 1.5rem;
 }
 
-/* Section Styling */
 section {
     padding: 50px 20px;
 }
@@ -85,7 +83,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Gallery Section */
+
 #gallery {
     background-image: url('https://i.ibb.co/NL3qFdD/dark-nature-rj2zws3ww99n2jzb.jpg');
     background-size: cover;
@@ -108,7 +106,7 @@ h2 {
     border-radius: 8px;
 }
 
-/* Pricing Section */
+
 #pricing {
     background-image: url('https://i.ibb.co/0F2DQ5f/download-2.jpg');
     background-size: cover;
@@ -157,9 +155,8 @@ h2 {
 .cta-button:hover {
     background: #0056b3;
 }
-/* Payment Section */
 #payment {
-    background-image: url('https://i.ibb.co/LdmgQ4Q/images.jpg'); /* Background image */
+    background-image: url('https://i.ibb.co/LdmgQ4Q/images.jpg'); 
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -182,7 +179,7 @@ h2 {
 }
 
 .payment-option {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5); 
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
@@ -214,13 +211,12 @@ h2 {
     background-color: #e67e22;
 }
 
-/* Contact Section */
+
 #contact a img {
     margin: 0 10px;
 }
-/* Payment Section */
 #payment {
-    background-color: #f9f9f9; /* Light background color */
+    background-color: #f9f9f9; 
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
@@ -240,7 +236,7 @@ h2 {
 
 #selected-plan {
     font-weight: bold;
-    color: #007bff; /* Blue color */
+    color: #007bff; 
 }
 
 .payment-options {
@@ -258,7 +254,6 @@ h2 {
     margin-right: 10px;
 }
 
-/* Credit Card Payment Info */
 #credit-card-info {
     display: block;
     margin-top: 30px;
@@ -291,7 +286,6 @@ h2 {
     background-color: #218838;
 }
 
-/* PhonePe Scanner Section */
 #phonepe-scanner {
     display: none;
     margin-top: 30px;
@@ -318,7 +312,6 @@ h2 {
     background-color: #e6b800;
 }
 
-/* Back Button to Pricing */
 #back-to-pricing-button {
     background-color: #007bff;
     color: white;
@@ -333,13 +326,13 @@ h2 {
 #back-to-pricing-button:hover {
     background-color: #0056b3;
 } 
-/* General Section Styling */
+
 #contact {
-    background-color: #f0f4f8; /* Light background */
+    background-color: #f0f4f8; 
     padding: 40px;
-    width: 100%; /* Full width */
-    box-sizing: border-box; /* Ensure padding is included in width */
-    margin: 0; /* Remove any default margin */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0; 
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -357,7 +350,7 @@ h2 {
 }
 
 #contact a {
-    color: #9b79c5; /* Elegant purple color */
+    color: #9b79c5; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -366,7 +359,7 @@ h2 {
     color: #6f4fbb;
 }
 
-/* Instagram and WhatsApp Icons */
+
 .contact-icons {
     margin: 20px 0;
 }
@@ -382,12 +375,12 @@ h2 {
     color: #6f4fbb;
 }
 
-/* Contact Form Styling */
+
 #contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* Full width */
+    width: 100%;
 }
 
 .form-group {
@@ -415,7 +408,7 @@ h2 {
 }
 
 .form-group input:focus, .form-group textarea:focus {
-    border-color: #9b79c5; /* Focus color */
+    border-color: #9b79c5; 
     outline: none;
 }
 
@@ -427,23 +420,11 @@ h2 {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    
 }
 
 #submit-btn:hover {
     background-color: #6f4fbb;
-}
-
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    #contact {
-        padding: 20px;
-    }
-
-    .contact-icon {
-        font-size: 30px;
-        margin: 0 10px;
-    }
 }
 
 #payment {
